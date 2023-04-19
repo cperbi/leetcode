@@ -1,6 +1,7 @@
+2265. Count Nodes Equal to Average of Subtree
 https://leetcode.com/problems/count-nodes-equal-to-average-of-subtree/description/
-https://i.imgur.com/cPNVujI.png
-https://i.imgur.com/WQy9Z9B.png
+<https://i.imgur.com/cPNVujI.png>
+<https://i.imgur.com/WQy9Z9B.png>
 這次是使用DFS(深度優先搜尋)
 還有另一種BFS(廣度優先搜尋)
 差別在於 
@@ -11,4 +12,4 @@ BFS 使用佇列的概念 先進的會先出
 將sum=左右ROOT的值 然後除去左右的子數數量+1(ROOT自己)
 寫好判斷後遞迴
 最後將有符合的記住
-https://i.imgur.com/n9ztfEu.png
+<https://i.imgur.com/n9ztfEu.png>
